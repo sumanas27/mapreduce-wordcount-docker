@@ -1,17 +1,17 @@
 # Mapreduce-wordcountprogram-docker
 
-##Introduction
+## Introduction
    This goal of the assignment is to create a Word Count program using the MapReduce Programing model and the program can be implemented on any local machine or on a virtual machine created using AWS(Amazon Web Services) or GCP(Google Cloud Platform).
    In this case, the program is implemented and run using Python programming language, Docker to run Hadoop Cluster on the local machine. Here the local machine can be Linux or the MacOS.
 
-##Prerequisites
+## Prerequisites
 The following softwares are required to run the program and get desired output.
 + Docker : It can be downloaded via this link
 + Docker Compose : It can be downloaded via this link 
 + Git : It can be downloaded via this link
 + Python : It can be downloaded via this link
 
-##Steps to run the application on local machine
+## Steps to run the application on local machine
 
 + Deploy Hadoop Cluster in Docker :
   We will use the Docker image by big-data-europe(https://github.com/big-data-europe/docker-hadoop) repository to set up Hadoop. Steps to get the Docker image on the local machine:
